@@ -1,0 +1,11 @@
+{
+  "name": "CaptchaHive",
+  "version": "3.0.0",
+  "description": "A privacy-friendly honeypot captcha solution.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "Sebastian-Alexis",
+  "license": "MIT"
+}
