@@ -1,9 +1,29 @@
 # CaptchaHive Library
 
-CaptchaHive is a JavaScript library that creates 5 honeypot fields on a web page to deter spam bots from submitting form data. CaptchaHive exports a single function:
-> createHoneypotFields() 
+CaptchaHive is a JavaScript library uses it's 5-layer protection plan on a web page to deter spam bots from submitting form data. CaptchaHive exports 7 functions:
+> returnBrowserCheck()
 
-Which creates the honeypot fields and adds them to the page.
+Takes headless browser check and returns results
+
+> createHoneypotFields()
+
+Creates honeypot fields and adds them to the page
+
+> detectOnConfidence()
+
+Decides whether or not to show a captcha based on current confidence score
+
+> captchaRedirect()
+
+If confidence score is too loow, redirects user to an Visual/Audio captcha.
+
+> declareSafe()
+
+If captcha completed succsefully, store session cookie to mark user as safe
+
+> removeFromSite()
+
+If captcha failed multiple times, redirect user from site.
 
 ### Accesibility
 
