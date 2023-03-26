@@ -25,6 +25,6 @@ If a spam bot fills in any of the honeypot fields, an alert message will be disp
 
 If you find any issues with this library or would like to suggest an improvement, please feel free to submit an issue or pull request on GitHub.
 
-##License
+## License
 
 This library is licensed under the MIT license. See the LICENSE file for more information.
