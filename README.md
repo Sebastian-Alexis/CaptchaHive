@@ -5,6 +5,15 @@ CaptchaHive is a JavaScript library that creates 5 honeypot fields on a web page
 
 Which creates the honeypot fields and adds them to the page.
 
+### Accesibility
+
+* A spam bot solution that works with screen readers and preserves users' privacy.
+* Existing solutions have privacy and accessibility issues, including Google ReCaptcha's privacy issues and Apple's Private Access Tokens that work only with Apple devices.
+* The prototype uses a 5-layer protection system that differentiates, deviates, detects, disengages, and declares users safe.
+* The solution uses image/audio captchas only as a fallback option, with a session cookie for subsequent requests.
+* The trial results show the prototype is successful in distinguishing humans from bots while providing accessibility for users with disabilities.
+
+
 ### How it works: 
 The CaptchaHive library is a JavaScript library that aims to solve the problem of CAPTCHA blocking users with visual impairments. CaptchaHive uses a system that looks at how users interact with the site to determine their humanness instead of making them take a CAPTCHA test. It has five layers of protection to differentiate between bots and humans and falls back to CAPTCHA only when the confidence score is low. Once the user solves the CAPTCHA, it stores a session cookie to eliminate further bot checks for that site.
 
@@ -27,7 +36,7 @@ CaptchaHive was tested with 5 trials, each including 600 runs from users and use
 ## Installation
 
 You can install CaptchaHive via npm (COMING SOON):
-> npm install CaptchaHive
+> npm i captchahivenpm
 
 Or you can include CaptchaHive directly by downloading captchahive.js and calling it in your main js file:
 > import { createHoneypotFields } from 'captchahive.js';
