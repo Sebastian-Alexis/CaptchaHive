@@ -1,4 +1,4 @@
-### Honeypot Fields Library
+# Honeypot Fields Library
 
 This is a JavaScript library that creates 5 honeypot fields on a web page to deter spam bots from submitting form data. The library exports a single function createHoneypotFields() that creates the honeypot fields and adds them to the page.
 
@@ -15,7 +15,7 @@ import { createHoneypotFields } from 'captchahive.js';
 To use this library, simply call the createHoneypotFields() function in your JavaScript code. For example:
 
 > import createHoneypotFields from 'honeypot-fields';
->createHoneypotFields();
+> createHoneypotFields();
 
 This will create 5 honeypot fields on the web page and add them to the body. The honeypot fields will be hidden from view using CSS, but will be visible to spam bots that ignore CSS rules.
 
