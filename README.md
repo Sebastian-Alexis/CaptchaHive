@@ -27,7 +27,7 @@ CaptchaHive was tested with 5 trials, each including 600 runs from users and use
 ## Installation
 
 You can install CaptchaHive via npm (COMING SOON):
-> npm install honeypot-fields
+> npm install CaptchaHive
 
 Or you can include CaptchaHive directly by downloading captchahive.js and calling it in your main js file:
 > import { createHoneypotFields } from 'captchahive.js';
